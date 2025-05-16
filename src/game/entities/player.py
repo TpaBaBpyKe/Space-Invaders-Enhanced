@@ -6,7 +6,7 @@ from game.entities.bullets import Bullet
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.original_image = load_image("../assets/Sprites/player.png", (40, 40), GREEN, 'triangle')
+        self.original_image = load_image("assets/Sprites/player.png", (40, 40), GREEN, 'triangle')
         self.image = self.original_image
         self.rect = self.image.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT - 50))
         self.speed = PLAYER_SPEED
