@@ -15,17 +15,17 @@ class Enemy(pygame.sprite.Sprite):
 
         # Типы врагов
         if self.is_shooter:
-            img_file = "../assets/Sprites/Enemies/enemy_shooter.png"
+            img_file = "assets/Sprites/Enemies/enemy_shooter.png"
             color_fallback = RED
             shape_fallback = 'circle'
             self.points = 20
         elif self.is_tank:
-            img_file = "../assets/Sprites/Enemies/enemy_tank.png"
+            img_file = "assets/Sprites/Enemies/enemy_tank.png"
             color_fallback = BLUE
             shape_fallback = 'rect'
             self.points = 30
         else: # Обычный
-            img_file = "../assets/Sprites/Enemies/enemy.png"
+            img_file = "assets/Sprites/Enemies/enemy.png"
             color_fallback = YELLOW
             shape_fallback = 'rect'
             self.points = 10
