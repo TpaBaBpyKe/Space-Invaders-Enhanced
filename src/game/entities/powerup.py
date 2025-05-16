@@ -9,11 +9,11 @@ class PowerUp(pygame.sprite.Sprite):
         self.type = type # (Все типы: 'shield', 'rapid_fire', 'life')
 
         if self.type == 'shield':
-            self.image = load_image("../assets/Sprites/Powerups/powerup_shield.png", (30, 30), CYAN, 'circle')
+            self.image = load_image("assets/Sprites/Powerups/powerup_shield.png", (30, 30), CYAN, 'circle')
         elif self.type == 'rapid_fire':
-             self.image = load_image("../assets/Sprites/Powerups/powerup_rapidfire.png", (30, 30), MAGENTA, 'triangle')
+             self.image = load_image("assets/Sprites/Powerups/powerup_rapidfire.png", (30, 30), MAGENTA, 'triangle')
         elif self.type == 'life':
-             self.image = load_image("../assets/Sprites/Powerups/powerup_life.png", (30, 30), ORANGE, 'rect')
+             self.image = load_image("assets/Sprites/Powerups/powerup_life.png", (30, 30), ORANGE, 'rect')
         else:
              self.image = pygame.Surface((30,30))
              self.image.fill(WHITE)
