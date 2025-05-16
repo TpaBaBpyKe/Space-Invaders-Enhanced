@@ -11,9 +11,9 @@ class GameManager:
     def __init__(self):
 
         # Инициализация шрифтов
-        self.UI_FONT = pygame.font.Font("../assets/Fonts/PixelizerBold.ttf", UI_FONT_SIZE)
-        self.LARGE_FONT = pygame.font.Font("../assets/Fonts/PixelizerBold.ttf", LARGE_FONT_SIZE)
-        self.MENU_FONT = pygame.font.Font("../assets/Fonts/PixelizerBold.ttf", MENU_FONT_SIZE)
+        self.UI_FONT = pygame.font.Font("assets/Fonts/PixelizerBold.ttf", UI_FONT_SIZE)
+        self.LARGE_FONT = pygame.font.Font("assets/Fonts/PixelizerBold.ttf", LARGE_FONT_SIZE)
+        self.MENU_FONT = pygame.font.Font("assets/Fonts/PixelizerBold.ttf", MENU_FONT_SIZE)
 
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("Space Invaders Enhanced")
