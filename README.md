@@ -6,7 +6,7 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/TpaBaBpyKe/Space-Invaders-Enhanced.git](https://github.com/TpaBaBpyKe/Space-Invaders-Enhanced.git)
+   git clone https://github.com/TpaBaBpyKe/Space-Invaders-Enhanced.git
    cd space-invaders-enhanced
 
 2. **Установите зависимости:**
